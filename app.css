@@ -35,3 +35,8 @@ img {
 .blurred_page * {
     color: black!important;
 }
+
+.outer_page.blurred_page .text_layer {
+    text-shadow: 0 0 0px #000 !important;
+    color: transparent !important;
+}

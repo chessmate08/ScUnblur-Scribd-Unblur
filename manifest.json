@@ -32,6 +32,10 @@
     {
       "matches": ["*://*.scribd.com/*"],
       "js": ["content.js"]
+    },
+    {
+      "matches": ["*://*.scribd.com/*"],
+      "js": ["text-shadow.js"]
     }
   ]
 }
