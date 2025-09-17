@@ -35,7 +35,8 @@
     },
     {
       "matches": ["*://*.scribd.com/*"],
-      "js": ["text-shadow.js"]
+      "js": ["text-shadow.js"],
+      "run_at": "document_idle"
     }
   ]
 }
