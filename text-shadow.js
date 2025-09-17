@@ -2,4 +2,6 @@ const stop_code = setInterval(() => {const stylesheet = document.getElementsByCl
 
 for (let i of stylesheet) {
   i.style.textShadow = 'unset';
-}}, 2000)
+  
+}
+console.log('txt unblur');}, 2000)
