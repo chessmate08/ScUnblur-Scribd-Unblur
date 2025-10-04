@@ -12,16 +12,14 @@ This Chrome extension allows you to remove the blur effect from documents on the
   
 - ***Forked:*** To get rid of random text blurring after a while.
 
-## text-shadow.js
-- new code -->
+## extra
+- if blur still happens, run this in console.
 ```js
-const stop_code = setInterval(() => {
-const stylesheet = document.getElementsByClassName('text_layer');
-for (let i of stylesheet) {
-  i.style.textShadow = 'unset';
-}}, 2000)
+const un = () => {
+  for (let i of document.getElementsByClassName('_1qNr2d')) {
+    i.remove();}
+}
+const stop = setInterval(un, 2000)
+// removes blurring element every two seconds. 
 ```
-- run this in js console to stop extra code:
-```js
-clearInterval(stop_code)
-```
+- Probably still need the extension though. 
